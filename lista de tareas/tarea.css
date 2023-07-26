@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: aliceblue;
+    background-image: url(https://cutewallpaper.org/22/desktop-summer-pattern-wallpapers/819829660.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+#abuelo {
+    background-color: rgb(253, 150, 53);
+    border: 10%;
+    border-radius: 10%;
+    border-color: rgb(243, 83, 35);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(190, 56, 8, 0.732);
+}
+
+
+
+h1 {
+    color: rgb(255, 93, 52);
+
+    font-size: 40px;
+}
+
+.tcss {
+    color: rgb(206, 31, 0);
+    background-color: rgb(245, 240, 239);
+    border: 2px solid rgb(238, 78, 20);
+    border-style: double;
+    width: 80%;
+    height: 60%;
+    margin-bottom: 10px;
+}
+
+.bcss {
+    margin: 10px;
+    color: rgb(206, 31, 0);
+    background-color: rgb(250, 98, 51);
+    border: 2px solid rgb(238, 78, 20);
+}
+.hijo.completo {
+
+    background-color:  rgb(238, 78, 20);
+    color: rgb(238, 233, 232);
+    border: 2px solid rgb(238, 78, 20);
+    margin-bottom: 10px;
+    text-decoration: line-through;
+}
+
+.hijo {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(255, 171, 92);
+    color: rgb(202, 77, 27);
+    border: 2px solid rgb(214, 68, 0);
+    margin-bottom: 10px;
+
+}
+
+.task {
+    margin: 5px;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.bi-check {
+    margin-right: 3px;
+}
+
+.bi-backspace-fill {
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.bi-pencil-square {
+    margin-right: 3px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+    
+
+}
